@@ -1,3 +1,4 @@
+//lab1
 Step1 : mkdir 3VC20CS065
 Step 2: ls
 Step 3: cd 3VC20CS065
@@ -14,7 +15,8 @@ $ git add lab1.txt
 $ git status
 Git commit –m “first msg”
 Git push origin main
-lab 2
+
+  //lab 2
 $ vi one.c
 $ git add one.c
 Git commit –m “create one.c”
@@ -51,7 +53,7 @@ git merge b2
 git branch –-merged
 git branch -d b2
 
-lab 3
+//lab 3
 vi index.txt
 git add .
 $ git commit -m "create indes file"
@@ -73,7 +75,7 @@ $ git stash list
 $ git add .
 git commit -m "create indes file changed in feature"
 
-lab 5
+//lab 5
 Step 1:
 vi index.txt
 git add .
@@ -91,7 +93,7 @@ git remote set-url origin
 https://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@github.com/lingarajpower/3VC15CS065
 git push
 
-lab 6
+//lab 6
 Vi pgm6.c
 Git add pgm6.c
 Git commit –m “program 6”
@@ -103,7 +105,7 @@ Git commit –m “pgm 6b feature branch”
 git checkout master
 git merge --no-ff feature-branch -m "Your custom merge commit message"
 
-lab 7
+//lab 7
 git checkout main
 git tag v1.0
 git tag
@@ -112,7 +114,7 @@ git tag
 git show v1.0
 Git push origin v1.0
 
-lab 8
+//lab 8
 $ git checkout master
 $ echo "I am in 8a" >> lab8a.txt
 git add .
@@ -120,7 +122,7 @@ $ git commit -m " I am in 8a branch master "
 $ git log
 $ git show f7b46493e18b1dd58703830637ae9d3e615adbde
 
-lab 9
+//lab 9
 $ git checkout master
 $ echo "I am in 9a" >> lab9a.txt
 git add .
@@ -139,7 +141,7 @@ $ git log
 $ git cherry-pick f7b46493e18b1dd58703830637ae9d3e615adbde
 $ git log
 
-lab 10
+//lab 10
 $ echo "I am in 10a" >> lab10a.txt
 git add .
 $ git commit -m " I am in 10a "
@@ -151,7 +153,7 @@ git add .
 $ git commit -m " I am in 10c "
 $ git log --author="lingarajpower" --since="2024-01-01" --until="2024-02-07"
 
-lab 11
+//lab 11
 $ echo "I am in 11a" >> lab11a.txt
 $ echo " I am in 11b " >> lab11b.txt
 $ echo " I am in 11c " >> lab11c.txt
@@ -161,7 +163,7 @@ git add .
 $ git commit -m "create indes file"
 $ git log –n 5
 
-lab 12
+//lab 12
 $ git checkout master
 $ vi 12a.txt
 git add .
